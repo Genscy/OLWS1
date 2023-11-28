@@ -1,0 +1,149 @@
+body {
+
+    height: max-content;
+    overflow: auto;
+    background-image: url('sanjiBg.gif');    
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+
+}
+
+#div1 {
+
+    width: 97vw;
+    height: 60vw;
+    background-color: rgba(255, 255, 255, 0.5);
+
+}
+
+nav {
+    background-color: #222222;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+
+  }
+  
+  nav
+   
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  nav
+   
+  li {
+    float: left;
+  }
+  
+  nav
+   
+  li
+   
+  a {
+    display: grid;
+    color: white;
+    text-align: center;
+    padding: 15px
+   
+  16px;
+    text-decoration: none;
+  }
+  
+  nav
+   
+  li
+   
+  a:hover {
+    background-color: #111;
+  }
+
+  nav ul {
+
+    display: flex;
+    justify-content: flex-end;
+
+  }
+
+h1 {
+
+    font-size: 15px;
+    padding-top: 5px;
+    padding-left: 10px;
+    color: white;
+    float: left;
+
+}
+
+#sanji {
+
+    width: 400px;
+    height: 500px;
+    border-radius: 25px;
+    background: #ffffff;
+    box-shadow: 10px 10px 30px #d9d9d9,
+                -10px -10px 30px #ffffff;
+  
+  background-image: url(sanjiImg.jpg);
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  margin-left: 100px;
+  top: 250px;
+  }
+  
+  #sanji:hover {
+    transform: scale(1.1);
+    transition: all 0.5s ease-in-out;
+  }
+
+  #sanjiOverview {
+
+    width: 650px;
+    height: 500px;
+    border-radius: 25px;
+    background: #ffffff;
+    box-shadow: 10px 10px 30px #d9d9d9,
+                -10px -10px 30px #000000;
+    position: absolute;
+    margin-left: 600px;
+    top: 250px;
+
+
+  }
+
+  #sanjiOverview:hover {
+    transform: scale(1.2);
+    transition: all 0.5s ease-in-out;
+  }
+  
+  #sanjiName {
+
+    background-image: linear-gradient(to bottom, #ffd700 0%, #daa520 50%, #8b572a 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 50px;
+
+  }
+
+  #sanjiBody {
+
+    background-image: linear-gradient(to bottom, #583a3a 0%, #5c2a2a 50%, #5a2626 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 19px;
+    font-weight: lighter;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    
+
+  }

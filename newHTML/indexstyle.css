@@ -1,0 +1,178 @@
+body {
+
+    height: 100vh;
+    overflow: auto;
+    
+    background-image: url('123037.jpg');
+    background-position: center;
+    background-size: cover;
+
+}
+
+#div1 {
+
+    width: 97vw;
+    height: 60vw;
+    background-color: rgba(255, 255, 255, 0.5);
+
+}
+
+nav {
+    background-color: #222222;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+
+  }
+  
+  nav
+   
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  nav
+   
+  li {
+    float: left;
+  }
+  
+  nav
+   
+  li
+   
+  a {
+    display: grid;
+    color: white;
+    text-align: center;
+    padding: 15px
+   
+  16px;
+    text-decoration: none;
+  }
+  
+  nav
+   
+  li
+   
+  a:hover {
+    background-color: #111;
+  }
+
+  nav ul {
+
+    display: flex;
+    justify-content: flex-end;
+
+  }
+
+h1 {
+
+    font-size: 15px;
+    padding-top: 5px;
+    padding-left: 10px;
+    color: white;
+    float: left;
+
+}
+
+#header1 {
+
+    font-family:'Times New Roman', Times, serif;
+    font-size: 100px;
+    color: rgb(31, 30, 30);
+    padding-top: 100px;
+    padding-left: 30px;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+      typing 3.5s steps(40, end),
+      blink-caret .75s step-end infinite;
+    letter-spacing: -0.2px;
+
+}
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+
+  #paragraph1 {
+
+    color:rgb(37, 37, 37);
+    padding-top: 170px;
+    padding-left: 30px;
+    font-size: 50px;
+
+  }
+  
+#strawhat1 {
+
+  width: 400px;
+  height: 350px;
+  border-radius: 25px;
+  background: #ffffff;
+  box-shadow: 10px 10px 30px #d9d9d9,
+              -10px -10px 30px #ffffff;
+background-image: url(strawhadlogo.jpg);
+background-size: cover;
+background-position: center;
+margin: 0 auto;
+}
+
+#strawhat1:hover {
+  transform: scale(1.2);
+  transition: all 0.5s ease-in-out;
+}
+
+
+#strawhat2 {
+    width: 400px;
+    height: 350px;
+    border-radius: 25px;
+    background: #ffffff;
+    box-shadow: 10px 10px 30px #d9d9d9,
+                -10px -10px 30px #ffffff;
+      background-image: url(desktop-wallpaper-straw-hat-pirates-one-piece-mobile-anime-board-straw-hat-crew.jpg);
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  margin-left: 10px;
+  bottom: -155px;
+
+  }
+
+  #strawhat2:hover {
+    transform: scale(1.1);
+    transition: all 0.5s ease-in-out;
+  }
+
+  #strawhat3 {
+    width: 400px;
+    height: 350px;
+    border-radius: 25px;
+    background: #ffffff;
+    box-shadow: 10px 10px 30px #d9d9d9,
+                -10px -10px 30px #ffffff;
+      background-image: url(sh2.jpg);
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  right: 0;
+  margin-right: 30px;
+  bottom: -155px;
+
+  }
+  
+  #strawhat3:hover {
+    transform: scale(1.1);
+    transition: all 0.5s ease-in-out;
+  }
+  
+
+
